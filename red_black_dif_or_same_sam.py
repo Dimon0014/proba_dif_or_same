@@ -521,12 +521,15 @@ neuch2 = 0
 i = 0
 next_nol = 0
 uchet_intervala = 0
-
+nolik = 0
+dub_nolik = 0
+dif = 0
+same = 0
 
 same_list =[]
 dif_list =[]
 
-for i in range(1270, 1280):  # while (ik < 1): # количество файлов
+for i in range(222, 1280):  # while (ik < 1): # количество файлов
     # ik = ik + 1
     # file_obj = open('200cikl_ochh.txt', 'w')
     # file_obj.close()
@@ -555,10 +558,7 @@ for i in range(1270, 1280):  # while (ik < 1): # количество файло
     # print("выборка",len(viborka))
     chet = 0
     nechet = 0
-    nolik = 0
-    dub_nolik = 0
-    dif = 0
-    same = 0
+
     index_same=0
     index_dif =0
     propusk_sam = 0
